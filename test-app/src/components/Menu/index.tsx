@@ -7,7 +7,7 @@ const Menu: React.FC<Props> = (props: Props) => {
     const checkboxRef:any = useRef();
     const divRef:any = useRef();
     const changePage = ():void =>{
-        window.open('/')
+      window.open("https://mockapi.io/docs", "_blank")
     }
 
       const handleClickOutside = (e:any) => {
@@ -27,20 +27,20 @@ const Menu: React.FC<Props> = (props: Props) => {
         <div className="menu-button"></div>
       </label>
       <ul className="menu"  ref={divRef} >
-        <li>
-          <a onClick={changePage}> 1</a>
+        <li onClick={changePage}>
+          <a > 1</a>
         </li>
-        <li>
-          <a onClick={changePage}> 2</a>
+        <li onClick={changePage}>
+          <a > 2</a>
         </li>
-        <li>
-          <a onClick={changePage}> 3</a>
+        <li onClick={changePage}>
+          <a > 3</a>
         </li>
-        <li>
-          <a onClick={changePage}> 4</a>
+        <li onClick={changePage}>
+          <a > 4</a>
         </li>
-        <li>
-          <a onClick={changePage}> 5</a>
+        <li onClick={changePage}>
+          <a > 5</a>
         </li>
       </ul>
     </section>
