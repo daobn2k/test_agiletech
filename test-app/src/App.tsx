@@ -1,9 +1,12 @@
 import './App.css';
+import ListUser from './components/ListUser';
+import Menu from './components/Menu';
 
 function App() {
   return (
     <div className="App">
-      test
+      <Menu/>
+      <ListUser />
     </div>
   );
 }
